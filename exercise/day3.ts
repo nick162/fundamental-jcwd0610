@@ -18,10 +18,10 @@ if (str === balik) {
 
 //3.
 let cm: number = 1;
-let km: number = 1000;
+let km: number = 100_000;
 
 if (typeof Number) {
-  console.log(cm * km);
+  console.log(cm / km);
 } else {
   console.log("angka yang anda masukan bukan nomor");
 }
