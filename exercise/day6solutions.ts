@@ -98,13 +98,7 @@ console.log(newStudent.calculate());
 
 // Kelas untuk menyimpan product
 class Product {
-  name: string;
-  price: number;
-
-  constructor(name: string, price: number) {
-    this.name = name;
-    this.price = price;
-  }
+  constructor(public name: string, public price: number) {}
 }
 
 // Kelas Transactionnya
